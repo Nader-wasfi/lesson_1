@@ -1,9 +1,9 @@
-import 'dart:io';
-
 void main() {
-  // square number 
-print("enter any number : ");
-int num = int.parse(stdin.readLineSync()!); // this convert string to num 
-int square = num * num;
-print ("the square of $num is :  $square");
+  //Check if a Number is Odd or Even
+  int number = 7;
+  if (number % 2==0) {
+    print("$number is Even");
+  }else {
+    print("$number is odd");
+  }
 }

@@ -1,10 +1,9 @@
-import 'dart:io';
-
 void main() {
- //full name
-print("enter first name ");
-String firstName = stdin.readLineSync()!;
-print("enter last name ");
-String lastName = stdin.readLineSync()!;
-print("full name : $firstName $lastName");
+ //Check Vowel or Consonant
+  String char = 'N'.toLowerCase();
+  if (char == 'a' || char == 'e' ||char =='i'||char == 'o'||char == 'u' ){
+    print('$char is a Vowel');
+  }else {
+    print("$char is a Consonant");
+  }
 }

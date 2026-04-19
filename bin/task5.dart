@@ -1,7 +1,9 @@
 void main(){
-  //remove all whitespaces
-  String text = " r e m o v e _ a l l _ w h i t e s p a c e s ";
-  String noSpaces = text.replaceAll(' ', '');
-  print("Original: $text ");
-  print("Without space: $noSpaces ");
+  //Sum of Natural Numbers
+  int x = 50;
+  int sum = 0;
+  for (int i=1;i<=x;i++){
+    sum += i;
+  }
+  print("the total sum is : $sum");
 }

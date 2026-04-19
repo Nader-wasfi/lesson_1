@@ -1,9 +1,7 @@
 void main() {
- //swap two numbers 
- int a = 12;
- int b = 23;
- print("before swap number = $a , $b");
- (a, b) = (b, a);
- print("after swap number = $a , $b");
-
+ //Print Name 100 Times
+ String Name = "Nader";
+ for (int i =1;i<=100; i++){
+  print("$i- $Name");
+ }
 }
